@@ -16,7 +16,7 @@ Metóda "findBy" môže byť viackrát použitá a vždy má v názve jeden aleb
 
 # Factory
 
-Metódu vo Factory nazývame "create". Napríklad OrganizationFactory.create. Opäť už netreba používať dlhý názov "createOrganization", lebo význam je zrejmý z kontextu. Špeciálne mutácie pre "create" vytvárame vtedy, ak majú doménový význam - v našom príklade sme mali DiscussionFactory.createQuestion/createAnswer. Druhou možnosťou je preťažiť create, napríklad AddressFactory.create(ulica,psc,obec) a AdressFactory(psc,obec) - lebo sú aj adresy bez ulice.
+Metódu vo Factory nazývame "create". Napríklad OrganizationFactory.create. Opäť už netreba používať dlhý názov "createOrganization", lebo význam je zrejmý z kontextu. Špeciálne mutácie pre "create" vytvárame vtedy, ak majú doménový význam - v našom príklade sme mali DiscussionFactory.createQuestion/createAnswer. Druhou možnosťou je preťažiť create, napríklad AddressFactory.create(ulica,psc,obec) a AdressFactory.create(psc,obec) - lebo sú aj adresy bez ulice.
 
 # Doménová logika
 
