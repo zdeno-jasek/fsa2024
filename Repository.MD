@@ -2,7 +2,7 @@
 
 Repository je interface, ktorého implementácia slúži na zapisovanie a čítanie objektov z databázy. Neobsahuje doménovú logiku.
 
-# Metódy
+## Metódy
 
 Vo všeobecnosti podľa DDD platí, že programátor si môže vybrať jeden zo štandardov, ako nazývať metódy v Repository:
 1. Collection-like: add, remove, get
